@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-12T17:26:00Z",
+  "purpose": "Read-only provenance index of existing GitHub releases; not the signed installation catalog and not a version authority for application source.",
+  "catalog_release": {
+    "tag": "catalog",
+    "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/catalog",
+    "versioned_application": false
+  },
+  "applications": [
+    {
+      "identity": "r-alpha",
+      "source_repository": "a1112/R-Alpha",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-alpha-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-alpha-v0.1.0-preview.1",
+          "published_at": "2026-10-03T08:31:57Z",
+          "prerelease": true,
+          "source_commits": [
+            "e4de2b5d192c8df316cda45299c05d837f904aae"
+          ],
+          "artifact_names": [
+            "r-alpha-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-alpha-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-alpha-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-alpha-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-bi",
+      "source_repository": "a1112/R-BI",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-bi-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-bi-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:01:33Z",
+          "prerelease": true,
+          "source_commits": [
+            "aab71d2c93d899426e2af065646e591626769612",
+            "aeaf31717554f14dab3327bc9e9bbe6448cd5a44"
+          ],
+          "artifact_names": [
+            "r-bi-0.1.0-preview.1-linux-x64.acceptance.json",
+            "r-bi-0.1.0-preview.1-linux-x64.artifact.json",
+            "r-bi-0.1.0-preview.1-linux-x64.provenance.json",
+            "r-bi-0.1.0-preview.1-linux-x64.tar.gz",
+            "r-bi-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-bi-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-bi-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-bi-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-box",
+      "source_repository": "a1112/R-Box",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-box-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-box-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:49:42Z",
+          "prerelease": true,
+          "source_commits": [
+            "e6b61994025556e9db363c6d4fea678486b81f76"
+          ],
+          "artifact_names": [
+            "manager-releases.json",
+            "manager-releases.json.sig",
+            "r-box-0.1.0-preview.1-linux-x64.acceptance.json",
+            "r-box-0.1.0-preview.1-linux-x64.artifact.json",
+            "r-box-0.1.0-preview.1-linux-x64.deb",
+            "r-box-0.1.0-preview.1-linux-x64.deb.sig",
+            "r-box-0.1.0-preview.1-macos-arm64.acceptance.json",
+            "r-box-0.1.0-preview.1-macos-arm64.artifact.json",
+            "r-box-0.1.0-preview.1-macos-arm64.dmg",
+            "r-box-0.1.0-preview.1-macos-arm64.dmg.sig",
+            "r-box-0.1.0-preview.1-macos-x64.acceptance.json",
+            "r-box-0.1.0-preview.1-macos-x64.artifact.json",
+            "r-box-0.1.0-preview.1-macos-x64.dmg",
+            "r-box-0.1.0-preview.1-macos-x64.dmg.sig",
+            "r-box-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-box-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-box-0.1.0-preview.1-windows-x64.exe",
+            "r-box-0.1.0-preview.1-windows-x64.exe.sig"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-clip",
+      "source_repository": "a1112/R-Clip",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-clip-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-clip-v0.1.0-preview.1",
+          "published_at": "2026-10-03T10:24:56Z",
+          "prerelease": true,
+          "source_commits": [
+            "e9acea0284bdc1ccee279114babdf176b6465e1a"
+          ],
+          "artifact_names": [
+            "r-clip-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-clip-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-clip-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-clip-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-code",
+      "source_repository": "a1112/R-Code",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-code-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-code-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:49:42Z",
+          "prerelease": true,
+          "source_commits": [
+            "7038d5ca0f72a42eab6c46e5c586c72f139c80a5"
+          ],
+          "artifact_names": [
+            "r-code-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-code-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-code-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-code-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-file",
+      "source_repository": "a1112/R-File",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-file-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-file-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:58:32Z",
+          "prerelease": true,
+          "source_commits": [
+            "3c519569b137c97164c922364c2f110edbb6147d"
+          ],
+          "artifact_names": [
+            "r-file-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-file-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-file-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-file-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-font",
+      "source_repository": "a1112/R-Font",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-font-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-font-v0.1.0-preview.1",
+          "published_at": "2026-10-03T08:36:16Z",
+          "prerelease": true,
+          "source_commits": [
+            "d9e755a108213a58558380d9ebe0054f5375aba0"
+          ],
+          "artifact_names": [
+            "r-font-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-font-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-font-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-font-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-ide",
+      "source_repository": "a1112/R-IDE",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-ide-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-ide-v0.1.0-preview.1",
+          "published_at": "2026-10-03T17:00:14Z",
+          "prerelease": true,
+          "source_commits": [
+            "bfa994f297e20a3524ea938a6f40c83aa2ab6cb5"
+          ],
+          "artifact_names": [
+            "r-ide-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-ide-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-ide-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-ide-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-image",
+      "source_repository": "a1112/R-Image",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.1-preview.1",
+          "tag": "r-image-v0.1.1-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-image-v0.1.1-preview.1",
+          "published_at": "2026-10-03T10:07:12Z",
+          "prerelease": true,
+          "source_commits": [
+            "be21ae2c0011a7cae6b653f84058e717c7cd2de3"
+          ],
+          "artifact_names": [
+            "r-image-0.1.1-preview.1-windows-x64.acceptance.json",
+            "r-image-0.1.1-preview.1-windows-x64.artifact.json",
+            "r-image-0.1.1-preview.1-windows-x64.failure.acceptance.json",
+            "r-image-0.1.1-preview.1-windows-x64.provenance.json",
+            "r-image-0.1.1-preview.1-windows-x64.zip"
+          ]
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-image-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-image-v0.1.0-preview.1",
+          "published_at": "2026-10-03T08:25:54Z",
+          "prerelease": true,
+          "source_commits": [
+            "af2d0e782261180fb73b7c699470ed102dfca508"
+          ],
+          "artifact_names": [
+            "r-image-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-image-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-image-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-image-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-labelimg",
+      "source_repository": null,
+      "source_mapping": "unresolved",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-labelimg-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-labelimg-v0.1.0-preview.1",
+          "published_at": "2026-10-03T08:27:52Z",
+          "prerelease": true,
+          "source_commits": [
+            "e6d248cf368b24dca316b806ed7882ae90728e9f",
+            "239a2e454d5e5da73b6749f24f642390f703c6b9"
+          ],
+          "artifact_names": [
+            "r-labelimg-0.1.0-preview.1-linux-x64.acceptance.json",
+            "r-labelimg-0.1.0-preview.1-linux-x64.artifact.json",
+            "r-labelimg-0.1.0-preview.1-linux-x64.provenance.json",
+            "r-labelimg-0.1.0-preview.1-linux-x64.tar.gz",
+            "r-labelimg-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-labelimg-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-labelimg-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-labelimg-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ],
+      "exception": "The published Rust/Slint application has no verified current source repository. Do not map it to the unrelated Python/Qt labelImg project."
+    },
+    {
+      "identity": "r-link",
+      "source_repository": "a1112/R-Link",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-link-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-link-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:10:54Z",
+          "prerelease": true,
+          "source_commits": [
+            "0d77b3967ae9672959c97d3bdfae734deee511f9"
+          ],
+          "artifact_names": [
+            "r-link-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-link-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-link-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-link-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-md",
+      "source_repository": "a1112/R-MD",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-md-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-md-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:13:40Z",
+          "prerelease": true,
+          "source_commits": [
+            "d34030f1f89f25bcb15791467213c333006b75f6"
+          ],
+          "artifact_names": [
+            "r-md-0.1.0-preview.1-linux-x64.acceptance.json",
+            "r-md-0.1.0-preview.1-linux-x64.artifact.json",
+            "r-md-0.1.0-preview.1-linux-x64.provenance.json",
+            "r-md-0.1.0-preview.1-linux-x64.tar.gz",
+            "r-md-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-md-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-md-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-md-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-msg",
+      "source_repository": "a1112/R-msg",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-msg-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-msg-v0.1.0-preview.1",
+          "published_at": "2026-10-03T10:15:55Z",
+          "prerelease": true,
+          "source_commits": [
+            "d146a9f1800a6f17619a972517e4293a083ffd88"
+          ],
+          "artifact_names": [
+            "r-msg-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-msg-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-msg-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-msg-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-os",
+      "source_repository": "a1112/R",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-os-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-os-v0.1.0-preview.1",
+          "published_at": "2026-10-03T09:06:29Z",
+          "prerelease": true,
+          "source_commits": [
+            "a237c454f90bf01a9bc27d9427c69e2ffd287237"
+          ],
+          "artifact_names": [
+            "r-os-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-os-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-os-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-os-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-sharemouse",
+      "source_repository": "a1112/R-ShareMouse",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-sharemouse-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-sharemouse-v0.1.0-preview.1",
+          "published_at": "2026-10-03T12:26:59Z",
+          "prerelease": true,
+          "source_commits": [
+            "17db07b8ccb0c9e6781697271ed21f87cec7df4d"
+          ],
+          "artifact_names": [
+            "r-sharemouse-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-sharemouse-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-sharemouse-0.1.0-preview.1-windows-x64.lifecycle.acceptance.json",
+            "r-sharemouse-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-sharemouse-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-story",
+      "source_repository": "a1112/R-Story",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-story-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-story-v0.1.0-preview.1",
+          "published_at": "2026-10-03T16:46:46Z",
+          "prerelease": true,
+          "source_commits": [
+            "b9dc60aa0c5989db5375d3e5a91c45595e201d0a"
+          ],
+          "artifact_names": [
+            "r-story-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-story-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-story-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-story-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "identity": "r-term",
+      "source_repository": "a1112/R-Term",
+      "source_mapping": "verified",
+      "releases": [
+        {
+          "version": "0.1.0-preview.1",
+          "tag": "r-term-v0.1.0-preview.1",
+          "release_url": "https://github.com/a1112/R-Box-Releases/releases/tag/r-term-v0.1.0-preview.1",
+          "published_at": "2026-10-03T08:26:57Z",
+          "prerelease": true,
+          "source_commits": [
+            "52a4eab638ca061b1441c7589150d271af57410c"
+          ],
+          "artifact_names": [
+            "r-term-0.1.0-preview.1-linux-x64.acceptance-profile-binding.json",
+            "r-term-0.1.0-preview.1-linux-x64.acceptance-profile-scope.md",
+            "r-term-0.1.0-preview.1-linux-x64.acceptance.json",
+            "r-term-0.1.0-preview.1-linux-x64.artifact.json",
+            "r-term-0.1.0-preview.1-linux-x64.provenance.json",
+            "r-term-0.1.0-preview.1-linux-x64.tar.gz",
+            "r-term-0.1.0-preview.1-windows-x64.acceptance.json",
+            "r-term-0.1.0-preview.1-windows-x64.artifact.json",
+            "r-term-0.1.0-preview.1-windows-x64.provenance.json",
+            "r-term-0.1.0-preview.1-windows-x64.zip"
+          ]
+        }
+      ]
+    }
+  ]
+}
